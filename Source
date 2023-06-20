@@ -213,7 +213,7 @@ end)
 tab:Button("Stage 🎤", function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-83.11736297607422, 6.873104095458984, 7.748469829559326)
 	Notify({
-		Description = "⚠ WARNING ⚠ GROUP REQUIRED";
+		Description = "Successful Teleport | Stage";
 		Title = "Alert";
 		Duration = 3;
 		});
@@ -368,8 +368,9 @@ end)
 		Cam.FieldOfView = t
 	end)
 
+setclipboard(tostring("discord.gg/HvXAyFagFx"))
 Notify({
 	Description = "Welcome to NIGHTMARE REWRITTEN";
-	Title = "Alert";
+	Title = "The discord link has been copied to your clipboard!";
 	Duration = 3;
 	});
