@@ -374,12 +374,77 @@ local plr = game.Players.LocalPlayer
 plr.Chatted:Connect(function(msg) 
 	if msg:lower() == "/adminroof" and "/Adminroof" and "/AdminRoof" and "/adminRoof" and "/ADMINROOF" then
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5896.93505859375, -16.59215545654297, 40.63946533203125)
+		Notify({
+			Description = "Successful Teleport | Admin Roof";
+			Title = "Alert";
+			Duration = 3;
+			});
 	end
 end)
 
 plr.Chatted:Connect(function(msg) 
 	if msg:lower() == "/spawn" and "/SPAWN" and "/Spawn" then
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7.887119770050049, 3.1999998092651367, 4.925275802612305)
+		Notify({
+			Description = "Successful Teleport | Spawn";
+			Title = "Alert";
+			Duration = 3;
+			});
+	end
+end)
+
+plr.Chatted:Connect(function(msg) 
+	if msg:lower() == "/Knight" and "/knight" and "/KNIGHT" then
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-246.23175048828125, 2.513737201690674, -240.2903289794922)
+		Notify({
+			Description = "Successful Teleport | Knight";
+			Title = "Alert";
+			Duration = 3;
+			});
+	end
+end)
+
+plr.Chatted:Connect(function(msg) 
+	if msg:lower() == "/PremiumLounge" and "/Premiumlounge" and "/premiumLounge" and "/PREMIUMLOUNGE" then
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5899.99951171875, -54.00468063354492, 23.050809860229492)
+		Notify({
+			Description = "Successful Teleport | Premium Lounge";
+			Title = "Alert";
+			Duration = 3;
+			});
+	end
+end)
+
+plr.Chatted:Connect(function(msg) 
+	if msg:lower() == "/TopRatedSign" and "/TopratedSign" and "/topratedsign" and "/topRatedsign" and "/TopratedSign" then
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-70.96351623535156, 18.9999942779541, -41.2108268737793)
+		Notify({
+			Description = "Successful Teleport | Top Rated Sign";
+			Title = "Alert";
+			Duration = 3;
+			});
+	end
+end)
+
+plr.Chatted:Connect(function(msg) 
+	if msg:lower() == "/Shop" and "/shop" and "/SHOP" then
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.04146194458008, 2.9925382137298584, 55.04872512817383)
+		Notify({
+			Description = "Successful Teleport | Shop";
+			Title = "Alert";
+			Duration = 3;
+			});
+	end
+end)
+
+plr.Chatted:Connect(function(msg) 
+	if msg:lower() == "/Stage" and "/stage" and "/STAGE" then
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-83.11736297607422, 6.873104095458984, 7.748469829559326)
+		Notify({
+			Description = "Successful Teleport | Stage";
+			Title = "Alert";
+			Duration = 3;
+			});
 	end
 end)
 
