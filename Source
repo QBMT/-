@@ -368,9 +368,24 @@ end)
 		Cam.FieldOfView = t
 	end)
 
+----------------------------------------------------past preload
+
+local plr = game.Players.LocalPlayer 
+plr.Chatted:Connect(function(msg) 
+	if msg:lower() == "/adminroof" and "/Adminroof" and "/AdminRoof" and "/adminRoof" and "/ADMINROOF" then
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5896.93505859375, -16.59215545654297, 40.63946533203125)
+	end
+end)
+
+plr.Chatted:Connect(function(msg) 
+	if msg:lower() == "/spawn" and "/SPAWN" and "/Spawn" then
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7.887119770050049, 3.1999998092651367, 4.925275802612305)
+	end
+end)
+
 setclipboard(tostring("discord.gg/HvXAyFagFx"))
-Notify({
-	Description = "Welcome to NIGHTMARE REWRITTEN";
-	Title = "The discord link has been copied to your clipboard!";
-	Duration = 3;
-	});
+	Notify({
+		Description = "Welcome to NIGHTMARE REWRITTEN";
+		Title = "The discord link has been copied to your clipboard!";
+		Duration = 5;
+		});
